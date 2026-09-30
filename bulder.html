@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+<img id="one" src="za/h1.jfif" width="100px" height="100px"/>
+<img id="two" src="za/h2.jfif" width="100px" height="100px"/>
+<img id="three" src="za/h3.jfif" width="100px" height="100px"/>
+<img id="four" src="za/h4.jfif" width="100px" height="100px"/>
+<img id="five" src="za/h5.jfif" width="100px" height="100px"/>
+<img id="six" src="za/h6.jfif" width="100px" height="100px"/>
+<img id="seven" src="za/h7.jfif" width="100px" height="100px"/>
+<img id="eight" src="za/h8.jfif" width="100px" height="100px"/>
+<img id="nine" src="za/h9.jfif" width="100px" height="100px"/>
+<img id="ten" src="za/h10.jpeg" width="100px" height="100px"/>
+
+
+<button>show</button>
+
+
+<img id="main_image" src="za/h11.jfif" style="width:500px;height:500px "/>
+
+
+
+
+
+<script>
+$(document).ready(function(){
+  $("#one").hover(function(){
+    $("#main_image").attr("src","za/h1.jfif");
+  });
+  $("#two").hover(function(){
+    $("#main_image").attr("src","za/h2.jfif");
+  });
+  $("#three").hover(function(){
+    $("#main_image").attr("src","za/h3.jfif");
+  });
+  $("#four").hover(function(){
+    $("#main_image").attr("src","za/h4.jfif");
+  });
+   $("#five").hover(function(){
+    $("#main_image").attr("src","za/h5.jfif");
+  });
+    $("#six").hover(function(){
+    $("#main_image").attr("src","za/h6.jfif");
+  });
+ $("#seven").hover(function(){
+    $("#main_image").attr("src","za/h7.jfif");
+  });
+
+    $("#eight").hover(function(){
+    $("#main_image").attr("src","za/h8.jfif");
+  });
+
+  $("#nine").hover(function(){
+    $("#main_image").attr("src","za/h9.jfif");
+  });
+    $("#ten").hover(function(){
+    $("#main_image").attr("src","za/h10.jpeg");
+  });
+  $("button").click(function(){
+    $("#main_image").toggle();
+  });
+});
+</script>
+
+
+
+
+
+</body>
+</html>
